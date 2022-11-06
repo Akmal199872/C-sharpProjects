@@ -8,10 +8,13 @@ Random rnd = new Random();
 
 int[] PrintArray(int[] array)
 {
+    System.Console.WriteLine("Массив: ");
+    System.Console.WriteLine(string.Empty);
     for (int i = 0; i < array.Length; i++)
     {
         System.Console.WriteLine(array[i]);
     }
+    System.Console.WriteLine(string.Empty);
     return array;
 }
 
@@ -347,3 +350,171 @@ double FindSquareTrapezoids()
 }
 
 FindSquareTrapezoids();
+
+IntroTask(20, "S2.20. Треугольник задан координатами своих вершин. Найти периметр и площадь треугольника.");
+
+double TrianglePerimeterAndSquare()
+{
+    double cathet_1 = rnd.NextDouble() * 10;
+    double cathet_2 = rnd.NextDouble() * 10;
+    double hypotenuse = Math.Sqrt((Math.Pow(cathet_1, 2) + Math.Pow(cathet_2, 2)));
+    System.Console.WriteLine($"Гипотенуза = {Math.Round(hypotenuse,0)}. Катет 1 = {Math.Round(cathet_1,1)}, Катет 2 = {Math.Round(cathet_2, 1)}");
+    double HalfPerimeter = (cathet_1 + cathet_2 + hypotenuse) / 2;
+    System.Console.WriteLine($"Периметр треугольника = {Math.Round(HalfPerimeter, 1)}");
+    double square = Math.Sqrt(((HalfPerimeter) * (HalfPerimeter - cathet_1) * (HalfPerimeter - cathet_2) * (HalfPerimeter - hypotenuse)));
+    System.Console.WriteLine($"Площадь треугольника = {Math.Round(square, 1)}");
+    return square;
+}
+
+TrianglePerimeterAndSquare();
+
+IntroTask(21, "S2.21. Выпуклый четырехугольник задан координатами своих вершин. Найти площадь этого четырехугольника как сумму площадей треугольников.");
+
+int [] ConvexQuadrilateral()
+{
+    int [] array = FillArray(CreateArray(4));
+    PrintArray(array);
+    int [] corners = new int [array.Length];
+
+    for (int i = 0; i < corners.Length; i++)
+    {
+        corners[i] = rnd.Next(30, 180);
+    }
+    
+    PrintArray(corners);
+    int AB = array[0];
+    int BC = array[1];
+    int CD = array[2];
+    int AD = array[3];
+
+    double diagonal_1 = Math.Sqrt((Math.Pow(AB, 2) + Math.Pow(AD, 2)));
+    double diagonal_2 = diagonal_1;
+
+    double BO = diagonal_1 / 2;
+    double OC = diagonal_1 / 2;
+    double AO = diagonal_2 / 2;
+    double DO = diagonal_2 / 2;
+
+    int corner_BOA = corners[0];
+    int corner_BOC = corners[1];
+    int corner_COD = corners[2];
+    int corner_AOD = corners[3];
+
+    double SquareBOA = 0.5 * (BO * AO) * Math.Sin(corner_BOA);
+    double SquareBOC = 0.5 * (BO * OC) * Math.Sin(corner_BOC);
+    double SquareOCD = 0.5 * (OC * DO) * Math.Sin(corner_COD);
+    double SquareAOD = 0.5 * (AO * DO) * Math.Sin(corner_AOD);
+    
+    double SquareABCD = SquareBOA + SquareBOC + SquareOCD + SquareAOD;
+    System.Console.WriteLine($"Площадь четырёхугольника = {SquareABCD}");
+    return array;
+}
+
+ConvexQuadrilateral();
+
+IntroTask(22, "S2.22. Известна стоимость 1 кг конфет, печенья и яблок. Найти стоимость всей покупки, если купили x кг конфет, у кг печенья и z кг яблок.");
+
+int CalcGroceries()
+{
+    int [] array = FillArray(CreateArray(3));
+    PrintArray(array);
+    int [] sum = FillArray(CreateArray(array.Length));
+    PrintArray(sum);
+    int result = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        result += array[i] * sum[i];
+    }
+    System.Console.WriteLine($"Стоимость всей покупки = {result}");
+    return result;
+}
+
+CalcGroceries();
+
+IntroTask(23, "S2.23. Известна стоимость монитора, системного блока, клавиатуры и мыши. Сколько будут стоить 3 компьютера из этих элементов? N компьютеров?");
+
+int CalcPC()
+{
+    int [] array = FillArray(CreateArray(4));
+    PrintArray(array);
+    int result = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        result += array[i];
+    }
+    System.Console.WriteLine($"Стоимость трёх компьютеров = {result * 3}");
+    return result;
+}
+
+CalcPC();
+
+IntroTask(24, "S2.24. Возраст Тани — X лет, а возраст Мити — Y лет. Найти их средний возраст, а также определить, на сколько отличается возраст каждого ребенка от среднего значения.");
+
+int ChildrenAge()
+{
+    int [] array = FillArray(CreateArray(2));
+    PrintArray(array);
+    int result = 0;
+    int AgeDiff = Math.Abs(array[0] - array[1]);
+    for (int i = 0; i < array.Length; i++)
+    {
+        result += array[i];
+    }
+    System.Console.WriteLine($"Средний возраст детей = {result / array.Length}");
+    System.Console.WriteLine($"Разница в возрасте детей = {AgeDiff}");
+
+    return result;
+}
+
+ChildrenAge();
+
+IntroTask(25, "S2.25. Два автомобиля едут навстречу друг другу с постоянными скоростями V1 и  V2 км/час. Определить, через какое время автомобили встретятся, если расстояние между ними было S км.");
+
+double CarMeetingTime()
+{
+    int FirstCarSpped = rnd.Next(20, 40);
+    int SecondCarSpeed = rnd.Next(20, 40);
+    double SWay = rnd.Next(1, 9);
+    double time = (SWay)/(FirstCarSpped + SecondCarSpeed);
+    System.Console.WriteLine($"Машины встретятся через {Math.Round(time,1)} часа");
+    return time;
+}
+
+CarMeetingTime();
+
+IntroTask(26, "S2.26. Два автомобиля едут друг за другом с постоянными скоростями V1 и  V2 км/час (V1>V2). Определить, какое расстояние будет между ними через 30 минут после того, как первый автомобиль опередил второй на S км.");
+
+double CarMeetingRoute()
+{
+    int FirstCarSpped = rnd.Next(40, 60);
+    int SecondCarSpeed = rnd.Next(20, 40);
+    int FirstCarSppedIncrease = rnd.Next(10,20);
+    double time = 0.5;
+    double SWay = FirstCarSppedIncrease + (FirstCarSpped - SecondCarSpeed) * time;
+    System.Console.WriteLine($"Машины за 30 минут проедут {SWay} км.");
+    return SWay;
+}
+
+CarMeetingRoute();
+
+IntroTask(27, "S2.27. Известно значение температуры по шкале Цельсия. Найти соответствующее  значение температуры по шкале: а) Фаренгейта; б) Кельвина. Для пересчета по шкале Фаренгейта необходимо исходное значение температуры умножить на 1,8 и к результату прибавить 32, а по шкале Кельвина абсолютное значение нуля соответствует 273,15 градуса по шкале Цельсия.");
+
+int TempCelsius()
+{
+    int TempVol = rnd.Next(1, 9);
+    System.Console.WriteLine($"Температура по Цельсию = {TempVol}.\n => По Фаренгейту = {TempVol * 1.8 + 32}.\n => По Кельвину = {TempVol + 273.15}");
+    return TempVol;
+}
+
+TempCelsius();
+
+IntroTask(28, "S2.28. У американского писателя-фантаста Рэя Бредбери есть роман «450 градусов  по Фаренгейту». Какой температуре по шкале Цельсия соответствует указанное в названии значение? (См. предыдущую задачу).");
+
+int TempFarenheit()
+{
+    int TempVol = 450;
+    System.Console.WriteLine($"Температура по Цельсию = {Math.Round(((TempVol - 32) / 1.8), 2)}");
+    return TempVol;
+}
+
+TempFarenheit();
