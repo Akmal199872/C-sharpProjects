@@ -1,0 +1,15 @@
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\bin\Debug\net6.0\Простейшие задачи.exe
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\bin\Debug\net6.0\Простейшие задачи.deps.json
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\bin\Debug\net6.0\Простейшие задачи.runtimeconfig.json
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\bin\Debug\net6.0\Простейшие задачи.dll
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\bin\Debug\net6.0\Простейшие задачи.pdb
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.csproj.AssemblyReference.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.AssemblyInfoInputs.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.AssemblyInfo.cs
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.csproj.CoreCompileInputs.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.dll
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\refint\Простейшие задачи.dll
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.pdb
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\Простейшие задачи.genruntimeconfig.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Простейшие задачи\obj\Debug\net6.0\ref\Простейшие задачи.dll
