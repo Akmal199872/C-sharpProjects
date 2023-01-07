@@ -1,0 +1,15 @@
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\bin\Debug\net6.0\Выделение цифр в записи числа.exe
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\bin\Debug\net6.0\Выделение цифр в записи числа.deps.json
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\bin\Debug\net6.0\Выделение цифр в записи числа.runtimeconfig.json
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\bin\Debug\net6.0\Выделение цифр в записи числа.dll
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\bin\Debug\net6.0\Выделение цифр в записи числа.pdb
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.csproj.AssemblyReference.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.AssemblyInfoInputs.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.AssemblyInfo.cs
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.csproj.CoreCompileInputs.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.dll
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\refint\Выделение цифр в записи числа.dll
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.pdb
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\Выделение цифр в записи числа.genruntimeconfig.cache
+C:\Users\akmal\Desktop\Новая папка\C-sharpProjects\c-sharp.pro\A. Целочисленная арифметика\Выделение цифр в записи числа\obj\Debug\net6.0\ref\Выделение цифр в записи числа.dll
